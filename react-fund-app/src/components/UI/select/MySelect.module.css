@@ -1,0 +1,11 @@
+.mySelect{
+    padding: 5px 15px;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    background-color: rgb(224, 171, 171);
+    border: 4px solid rgb(255, 255, 255);
+    cursor: pointer;
+    font-weight: 100;
+    transition: 0.5s linear;
+    border-radius: 5px;
+}

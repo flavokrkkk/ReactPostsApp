@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    color: rgb(218, 174, 174);
+}
+
+#root{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #4e1c1c;
+    min-height: 100vh;
+}
+
+.App {
+    width: 900px;
+    min-height: 100vh;
+    background-color: #5a1f1f;
+}
+
+.post{
+    display: flex;
+    padding: 15px;
+    border: 4px solid #ffffff;
+    margin-top: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.post__btns {
+    display: flex;
+}
+  
+/* Использование библиотеки анимаций REACT-TRANSITION-GROUP */
+  .post-enter {
+    transform: translateX(-350px);
+  }
+  .post-enter-active {
+    transform: translateX(0px);
+    transition: all 500ms ease-in;
+  }
+  .post-exit {
+    opacity: 1;
+  }
+  .post-exit-active {
+    transform: translateX(-350px);
+    transition: all 500ms ease-in;
+  }
+
+  .page__wrapper{
+      margin-top: 30px;
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+  }
+
+  .page{
+      padding: 10px;
+      border: 1px solid red;
+      cursor: pointer;
+
+  }
+
+  .page__active {
+      border: 3px solid rgb(243, 242, 242);
+      font-weight: bold;
+  }
+
+  .navbar {
+    /* position: fixed; */
+      height: 50px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      padding: 0 15px;
+      background: rgb(255, 255, 255);
+      margin-bottom: 20px;
+  }
+
+  .navbar__links{
+      margin-left: auto;
+  }
+  
