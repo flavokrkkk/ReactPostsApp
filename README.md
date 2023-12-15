@@ -2,7 +2,7 @@
 React, Axios
 #Скриншоты данного проекта
 
-<h2>Основная часть приложения где показаны все посты</h2>
+<h2>Основная часть приложения</h2>
 <img src="https://github.com/flavokrkkk/ReactPostsApp/blob/main/scrins/2023-12-15_23-58-48.png">
 
 <h2>Посты, которые мы подгружаем с удаленного сервера JSON PLACEHOLDER</h2>
